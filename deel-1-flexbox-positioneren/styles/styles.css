@@ -1,1 +1,88 @@
 /*Schrijf hier jouw CSS*/
+
+/*Opdracht 1*/
+
+.flex-container-opdracht-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 2*/
+
+.flex-container-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-opdracht-2 {
+    flex-basis: 266px;
+    /*Dit is op basis van de max-width van 800px die vermeld staat in do-not-edit.css, welke ik door 3 heb gedeeld*/
+}
+
+/*Opdracht 3*/
+
+.flex-container-opdracht-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#flex-item-1-opdracht-3 {
+    align-self: flex-start;
+}
+
+#flex-item-2-opdracht-3 {
+    align-self: center;
+}
+
+#flex-item-3-opdracht-3 {
+    align-self: flex-end;
+}
+/*Ik begrijp niet waarom dit niet werkt...? Bij verschillende voorbeelden die ik heb kunnen vinden werd het zo gedaan. Zie ik iets over het hoofd?*/
+
+/*Opdracht 4*/
+
+.flex-container-opdracht-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Opdracht 5*/
+
+.flex-container-opdracht-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#flex-column-1-opdracht-5 {
+    /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#flex-column-2-opdracht-5 {
+    /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+#flex-column-3-opdracht-5 {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+}
+/* Ik begrijp niet helemaal waarom de items tegen elkaar aan bleven staan ondanks het gebruik van space-between. Ik heb het opgelost door een gap te gebruiken, maar ik weet niet of dat de bedoeling was.
+

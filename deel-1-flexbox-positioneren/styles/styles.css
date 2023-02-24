@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 100%;
+
 }
 
 #flex-item-1-opdracht-3 {
@@ -40,7 +40,6 @@
 #flex-item-3-opdracht-3 {
     align-self: flex-end;
 }
-/*Ik begrijp niet waarom dit niet werkt...? Bij verschillende voorbeelden die ik heb kunnen vinden werd het zo gedaan. Zie ik iets over het hoofd?*/
 
 /*Opdracht 4*/
 
@@ -65,7 +64,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
 }
 
 #flex-column-2-opdracht-5 {
@@ -74,7 +72,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
 }
 
 #flex-column-3-opdracht-5 {
@@ -83,7 +80,4 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 40px;
 }
-/* Ik begrijp niet helemaal waarom de items tegen elkaar aan bleven staan ondanks het gebruik van space-between. Ik heb het opgelost door een gap te gebruiken, maar ik weet niet of dat de bedoeling was.
-

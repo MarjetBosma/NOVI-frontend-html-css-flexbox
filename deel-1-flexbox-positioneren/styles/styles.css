@@ -23,10 +23,11 @@
 /*Opdracht 3*/
 
 .flex-container-opdracht-3 {
+    /*border: 2px solid red;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+/*Dit lukte pas toen ik in overleg met Sam in de do-not-edit css file de class names heb aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast*/
 }
 
 #flex-item-1-opdracht-3 {
@@ -81,3 +82,4 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+/*Hier heb ik in overleg met Sam in de do-not-edit css file de class names aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast. Daarvoor lukte het alleen als ik tussen de items een gap plaatste.*/

@@ -27,8 +27,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-/*Dit lukte pas toen ik in overleg met Sam in de do-not-edit css file de class names heb aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast*/
 }
+/*Dit lukte pas toen ik in overleg met Sam in de do-not-edit css file de class names heb aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast*/
 
 #flex-item-1-opdracht-3 {
     align-self: flex-start;

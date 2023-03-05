@@ -1,1 +1,48 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column; /*bevat 3 items: header, main en footer*/
+    min-height: 100vh;
+}
+
+header {
+    flex-basis: 120px; /*in column container dus hoogte, en deze waarde leek me passend*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex; /*is flex container voor article, aside en nav*/
+    flex-direction: row;
+    flex-basis: auto;  /*in column container dus hoogte, 60% is nog over na 20% bij zowel header als footer*/
+    flex-shrink: 0;
+    flex-grow: 1
+}
+
+article {
+    flex-basis: 60vw; /*in row container dus breedte, 60vw is nog over na 20vw bij zowel aside als nav*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 1;
+}
+
+nav {
+    flex-basis: 20vw; /*in row container dus breedte, en deze waarde leek me passend*/
+    flex-shrink: 0;
+    flex-grow: 1;
+    order: 3
+}
+
+aside {
+    flex-basis: 20vw; /*in row container dus breedte, en deze waarde leek me passend*/
+    flex-shrink: 0;
+    flex-grow: 1;
+    order: 2;
+}
+
+footer {
+    flex-basis: 120px;  /*in column container dus hoogte, deze waarde leek me passend*/
+    flex-grow: 0;
+    flex-shrink: 0;
+}

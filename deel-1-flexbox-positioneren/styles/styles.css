@@ -28,7 +28,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-/*Dit lukte pas toen ik in overleg met Sam in de do-not-edit css file de class names heb aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast*/
+/*Dit lukte eerst niet, dus Sam heeft met me meegekeken. Er was een probleem in de opdracht: doordat in de html de flex container geen class name had en in de do-not-edit CSS file wel werd de property min-height: 100% niet toegepast. Toen ik de class nme in de hml overname, werkte het wel.*/
 
 #flex-item-1-opdracht-3 {
     align-self: flex-start;
@@ -82,4 +82,4 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-/*Hier heb ik in overleg met Sam in de do-not-edit css file de class names aangepast naar diegene die ik hier heb gebruikt, zodat de property min-height: 100% wel werd toegepast. Daarvoor lukte het alleen als ik tussen de items een gap plaatste.*/
+/*Vergelijkbaar probleem als bij opdracht 3. Ik moets de class name uit de do-not-edit CSS file overnemen in de HTML, zodat de property min-height: 100% werd toegepast. Daarvoor lukte het alleen als ik tussen de items een gap plaatste.*/

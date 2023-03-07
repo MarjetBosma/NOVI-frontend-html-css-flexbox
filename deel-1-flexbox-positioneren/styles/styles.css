@@ -1,1 +1,83 @@
 /*Schrijf hier jouw CSS*/
+
+.flex-container-opdracht-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 2*/
+
+.flex-container-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-opdracht-2 {
+    flex-basis: 266px;
+    /*Dit is op basis van de max-width van 800px die vermeld staat in do-not-edit.css, welke ik door 3 heb gedeeld*/
+}
+
+/*Opdracht 3*/
+
+.flex-container-opdracht-3 {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Dit lukte eerst niet, dus Sam heeft met me meegekeken. Er was een probleem in de opdracht: doordat in de html de flex container geen class name had en in de do-not-edit CSS file wel werd de property min-height: 100% niet toegepast. Toen ik de class nme in de hml overname, werkte het wel.*/
+
+#flex-item-1-opdracht-3 {
+    align-self: flex-start;
+}
+
+#flex-item-2-opdracht-3 {
+    align-self: center;
+}
+
+#flex-item-3-opdracht-3 {
+    align-self: flex-end;
+}
+
+/*Opdracht 4*/
+
+.flex-container-opdracht-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Opdracht 5*/
+
+.flex-container-opdracht-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#flex-column-1-opdracht-5 {
+    /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#flex-column-2-opdracht-5 {
+    /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex-column-3-opdracht-5 {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/*Vergelijkbaar probleem als bij opdracht 3. Ik moest de class name uit de do-not-edit CSS file overnemen in de HTML, zodat de property min-height: 100% werd toegepast. Daarvoor lukte het alleen als ik tussen de items een gap plaatste.*/

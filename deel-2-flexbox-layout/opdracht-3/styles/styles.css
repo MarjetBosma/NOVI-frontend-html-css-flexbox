@@ -47,4 +47,6 @@ aside {
 
 footer {
     flex-basis: 150px; /*in column container dus hoogte, dezelfde waarde als bij opdracht 2*/
+    flex-shrink: 0;
+    flex-grow: 0;
 }
